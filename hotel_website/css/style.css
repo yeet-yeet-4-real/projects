@@ -64,7 +64,14 @@ p {
 
 .bg-dark {
     background: #333;
+    color: #fff;
 }
+
+.bg-primary {
+    background: #f4f4f4;
+    color: #333;
+}
+
 
 /* Navbar */
 #navbar {
@@ -147,6 +154,12 @@ p {
 #home-info .info-content {
     float: right;
     width: 50%;
-    padding: 20px;
-    color: #fff;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+
+#home-info .info-content p {
+    padding-bottom: 30px;
 }
