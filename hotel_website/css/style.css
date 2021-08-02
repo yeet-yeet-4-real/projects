@@ -32,7 +32,6 @@ p {
     padding: 0 20px;
 }
 
-
 .text-primary {
     color: #f7c08a;
 }
@@ -85,11 +84,9 @@ p {
 }
 
 /* Padding */
-
 .py-1 { padding: 10px 0; }
 .py-2 { padding: 20px 0; }
 .py-3 { padding: 30px 0; }
-
 
 /* Navbar */
 #navbar {
@@ -195,7 +192,6 @@ p {
     margin-bottom: 10px;
 }
 
-
 /* About Info */
 #about-info .info-right {
     float: right;
@@ -217,7 +213,6 @@ p {
 }
 
 /* Testimonials */
-
 #testimonials {
     height: 600px;
     background: url('../img/test-bg.jpg');
