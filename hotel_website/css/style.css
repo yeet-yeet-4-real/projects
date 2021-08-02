@@ -67,9 +67,18 @@ p {
     color: #fff;
 }
 
-.bg-primary {
+.bg-light {
     background: #f4f4f4;
     color: #333;
+}
+
+.bg-primary {
+    background: #f7c08a;
+    color: #333;
+}
+
+.clr {
+    clear: both;
 }
 
 /* Navbar */
@@ -146,6 +155,8 @@ p {
     float: left;
     width: 50%;
     background: url('../img/photo-1.jpg');
+    background-position: center center;
+    background-size: cover;
     background-repeat: no-repeat;
     min-height: 100%;
 }
@@ -161,4 +172,26 @@ p {
 
 #home-info .info-content p {
     padding-bottom: 30px;
+}
+
+/* Features */
+
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+
+.box i {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+
+#main-footer {
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 20px;
 }
