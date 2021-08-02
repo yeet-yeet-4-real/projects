@@ -269,6 +269,10 @@ p {
     border-color: #f7c08a;
 }
 
+#contact-form h1 {
+    color: #333;
+}
+
 /* Footer */
 #main-footer {
     text-align: center;
