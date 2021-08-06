@@ -81,6 +81,7 @@ p {
 
 .l-heading {
     font-size: 40px;
+    line-height: 1.4;
 }
 
 /* Padding */
@@ -93,16 +94,13 @@ p {
     background: #333;
     color: #fff;
     overflow: auto;
-    /* Position */
-    position: sticky;
-    top: 0;
 }
 
 #navbar a {
     color: #fff;
 }
 
-#navbar h1 {
+#navbar .logo {
     float: left;
     padding-top: 20px;
 }
@@ -214,7 +212,7 @@ p {
 
 /* Testimonials */
 #testimonials {
-    height: 600px;
+    height: 100%;
     background: url('../img/test-bg.jpg');
     background-repeat: no-repeat;
     background-position: center center;
